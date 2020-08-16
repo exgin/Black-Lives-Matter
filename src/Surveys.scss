@@ -1,0 +1,16 @@
+.sv_main .sv_body {
+  border: none;
+}
+
+.sv_body {
+  margin-bottom: 50px;
+}
+
+.sv_main input[type='button'],
+.sv_main button {
+  background-color: black;
+}
+
+.sv_main input[type='button']:hover {
+  background-color: rgb(199, 196, 196);
+}

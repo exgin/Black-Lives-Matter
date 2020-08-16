@@ -1,0 +1,15 @@
+.NewsCards {
+  max-width: 320px;
+  margin: auto;
+}
+
+.Card {
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+.Card:hover {
+  transform: translateY(-7px);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}

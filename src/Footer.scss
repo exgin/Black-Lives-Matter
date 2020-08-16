@@ -1,0 +1,31 @@
+.main-footer {
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.col > .footer-list > li {
+  font-size: 11px;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  width: 200px;
+  padding: 20px;
+}
+
+.footer {
+  font-size: 12px;
+}
+
+.footer > p > a {
+  padding: 3px;
+  color: black;
+}
+
+.footer > p > a:hover {
+  color: #7a807d;
+}
