@@ -27,7 +27,7 @@ function getSurveys(survey) {
 export function sendNewSurvey(sex, ethnicity, racism, police, vote, community) {
   return async function (dispatch) {
     try {
-      const { data } = await axios.post(`${BACKEND_URL}/survey`, { sex, ethnicity, racism, police, vote, community });
+      const { data } = await axios.post(`${REACT_APP_BACKEND_URL}/survey`, { sex, ethnicity, racism, police, vote, community });
       dispatch(sendSurvey(data));
     } catch (error) {
       console.log(error);
