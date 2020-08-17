@@ -2,15 +2,15 @@ import { NEW_SURVEY, FETCH_SURVEYS } from './actionTypes';
 import { getError } from './actionCreatorNews';
 import axios from 'axios';
 
-const BACKEND_URL = process.env.BACKEND_URL || 'http://127.0.0.1:5000';
+const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://127.0.0.1:5000';
 
-console.log('using', BACKEND_URL);
+console.log('using', REACT_APP_BACKEND_URL);
 
 /* fetch our current survey results from the database */
 export function fetchSurveys() {
   return async function (dispatch) {
     try {
-      const { data } = await axios.get(`${BACKEND_URL}/survey`);
+      const { data } = await axios.get(`${REACT_APP_BACKEND_URL}/survey`);
       dispatch(getSurveys(data));
     } catch (error) {
       console.log(error);
