@@ -392,6 +392,7 @@ function Chart() {
         otherData.community.no += 1;
       }
     }
+    return res;
   });
 
   /* Survey Data */
