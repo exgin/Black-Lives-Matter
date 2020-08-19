@@ -22,17 +22,17 @@ function Footer() {
             <h6>BLM Social Medias</h6>
             <ul className='footer-list'>
               <li>
-                <a target='_blank' href='https://www.reddit.com/r/BlackLivesMatter/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.reddit.com/r/BlackLivesMatter/'>
                   BLM {reddit}
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://twitter.com/blklivesmatter?lang=en'>
+                <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/blklivesmatter?lang=en'>
                   BLM {twitter}
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://www.facebook.com/BlackLivesMatter/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/BlackLivesMatter/'>
                   BLM {fb}
                 </a>
               </li>
@@ -43,17 +43,17 @@ function Footer() {
             <h6>Other Crisis</h6>
             <ul className='footer-list'>
               <li>
-                <a target='_blank' href='https://www.worldvision.org/disaster-relief-news-stories/lebanon-beirut-explosion-facts-how-help'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.worldvision.org/disaster-relief-news-stories/lebanon-beirut-explosion-facts-how-help'>
                   Lebanon Beruit
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://www.helpguide.org/articles/healthy-living/coronavirus-how-to-help-give-back.htm'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.helpguide.org/articles/healthy-living/coronavirus-how-to-help-give-back.htm'>
                   COVID-19
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://www.rescue.org/country/central-african-republic'>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.rescue.org/country/central-african-republic'>
                   Central African Republic (CAR)
                 </a>
               </li>
@@ -64,17 +64,17 @@ function Footer() {
             <h6>Other BLM Websites</h6>
             <ul className='footer-list'>
               <li>
-                <a target='_blank' href='https://blacklivesmatter.com/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://blacklivesmatter.com/'>
                   BLM Offical
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://blmsites.carrd.co/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://blmsites.carrd.co/'>
                   BLM Cards
                 </a>
               </li>
               <li>
-                <a target='_blank' href='https://creative-capital.org/2020/06/03/resources-ways-to-support-black-lives-matter/'>
+                <a target='_blank' rel='noopener noreferrer' href='https://creative-capital.org/2020/06/03/resources-ways-to-support-black-lives-matter/'>
                   Creative Capital
                 </a>
               </li>
@@ -85,13 +85,13 @@ function Footer() {
         <div className='row footer text-center'>
           <p className='col-md'>
             {calender} {new Date().getFullYear()} Black Lives Matter | Any changes to be made? Contact me!{' '}
-            <a target='_blank' href='https://www.linkedin.com/in/sreid20/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/sreid20/'>
               {li}
             </a>
-            <a target='_blank' href='https://github.com/exgin'>
+            <a target='_blank' rel='noopener noreferrer' href='https://github.com/exgin'>
               {github}
             </a>
-            <a target='_blank' href='mailto:exgin3538@gmail.com'>
+            <a target='_blank' rel='noopener noreferrer' href='mailto:exgin3538@gmail.com'>
               {mail}
             </a>
           </p>

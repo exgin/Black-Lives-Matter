@@ -10,27 +10,27 @@ function Donate() {
         <h3 className='Donate-title'>Funds & Organizations</h3>
         <ul className='funds-org list-unstyled'>
           <li>
-            <a target='_blank' href='https://mnfreedomfund.org/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://mnfreedomfund.org/'>
               Minnestoa Freedom Fund
             </a>
           </li>
           <li>
-            <a target='_blank' href='https://www.communityjusticeexchange.org/nbfn-directory'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.communityjusticeexchange.org/nbfn-directory'>
               National Bail Fund Network
             </a>
           </li>
           <li>
-            <a target='_blank' href='https://www.joincampaignzero.org/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.joincampaignzero.org/'>
               Campaign Zero
             </a>
           </li>
           <li>
-            <a target='_blank' href='https://www.volunteermatch.org/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.volunteermatch.org/'>
               VolunteerMatch
             </a>
           </li>
           <li>
-            <a target='_blank' href='https://www.showingupforracialjustice.org/'>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.showingupforracialjustice.org/'>
               Showing Up For Racial Justice
             </a>
           </li>
