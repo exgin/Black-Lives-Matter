@@ -6,7 +6,7 @@ I want others to be able to support & be aware of the civil crisis currently hap
 
 ![blm website gif](./src/images/blmwebsite.gif)
 
-Demo Link: https://sharp-northcutt-712807.netlify.app/
+Demo Link: https://blm-sammy.netlify.app/
 
 ## Stack
 
