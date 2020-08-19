@@ -6,6 +6,8 @@ const REACT_APP_BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://127.0
 
 console.log('using', REACT_APP_BACKEND_URL);
 
+console.log(process.env);
+
 /* fetch our current survey results from the database */
 export function fetchSurveys() {
   return async function (dispatch) {
