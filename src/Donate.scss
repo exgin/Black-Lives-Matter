@@ -1,6 +1,11 @@
 .Donate {
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Donate-content {
+  flex: 1;
 }
 
 .Donate-title {

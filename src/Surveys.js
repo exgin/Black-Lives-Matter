@@ -95,16 +95,17 @@ function Surveys() {
   }
 
   return (
-    <div className='container vh-100 text-center'>
+    <div className='Survey text-center'>
       <h1>SURVEY</h1>
+      <div className='Survey-content'>
+        <small>
+          this survey is <b>optional</b>
+        </small>
 
-      <small>
-        this survey is <b>optional</b>
-      </small>
+        <Survey json={surveyJSON} onComplete={sendDataToServer} />
 
-      <Survey json={surveyJSON} onComplete={sendDataToServer} />
-
-      <Chart />
+        <Chart />
+      </div>
     </div>
   );
 }

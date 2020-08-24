@@ -1,3 +1,13 @@
+.Survey {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Survey-content {
+  flex: 1;
+}
+
 .sv_main .sv_body {
   border: none;
 }

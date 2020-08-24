@@ -3,10 +3,10 @@ import './Donate.scss';
 
 function Donate() {
   return (
-    <div className='text-center'>
+    <div className='Donate text-center'>
       <h1>DONATE</h1>
 
-      <div className='Donate vh-100'>
+      <div className='Donate-content vh-100'>
         <h3 className='Donate-title'>Funds & Organizations</h3>
         <ul className='funds-org list-unstyled'>
           <li>
