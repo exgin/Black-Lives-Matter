@@ -450,7 +450,7 @@ function Chart() {
     options: {
       title: {
         display: true,
-        text: 'Community',
+        text: 'Police',
       },
     },
     labels: ['Black or African American', 'Hispanic or Latino', 'Native American or American Indian', 'Asian or Pacificer Islander', 'White', 'Other'],
@@ -471,24 +471,49 @@ function Chart() {
   };
 
   /* seperator */
-  const totalSexData = {
+  const totalRacismData = {
     options: {
       title: {
         display: true,
-        text: 'Community',
+        text: 'Racism',
       },
     },
     labels: ['Black or African American', 'Hispanic or Latino', 'Native American or American Indian', 'Asian or Pacificer Islander', 'White', 'Other'],
     datasets: [
       // first set of data
       {
-        label: 'Males taken the survey',
+        label: 'Victim of racism',
+        data: [blackData.racism.yes, hispanicData.racism.yes, nativeData.racism.yes, asianData.racism.yes, whiteData.racism.yes, otherData.racism.yes],
+        backgroundColor: ['#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8'],
+      },
+      // second set of data
+      {
+        label: 'Not a victim of racism',
+        data: [blackData.racism.no, hispanicData.racism.no, nativeData.racism.no, asianData.racism.no, whiteData.racism.no, otherData.racism.no],
+        backgroundColor: ['##7b9697', '##7b9697', '##7b9697', '##7b9697', '##7b9697', '##7b9697'],
+      },
+    ],
+  };
+
+  /* seperator */
+  const totalSexData = {
+    options: {
+      title: {
+        display: true,
+        text: 'Sex',
+      },
+    },
+    labels: ['Black or African American', 'Hispanic or Latino', 'Native American or American Indian', 'Asian or Pacificer Islander', 'White', 'Other'],
+    datasets: [
+      // first set of data
+      {
+        label: 'Males',
         data: [blackData.sex.males, hispanicData.sex.males, nativeData.sex.males, asianData.sex.males, whiteData.sex.males, otherData.sex.males],
         backgroundColor: ['#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8', '#9dc6c8'],
       },
       // second set of data
       {
-        label: 'Females taken the survey',
+        label: 'Females',
         data: [blackData.sex.females, hispanicData.sex.females, nativeData.sex.females, asianData.sex.females, whiteData.sex.females, otherData.sex.females],
         backgroundColor: ['##7b9697', '##7b9697', '##7b9697', '##7b9697', '##7b9697', '##7b9697'],
       },
@@ -497,7 +522,7 @@ function Chart() {
 
   return (
     <div className='Chart'>
-      <div className='Container'>
+      <div className='container'>
         <Bar data={totalVoteData} width={100} height={300} options={{ maintainAspectRatio: false, responsive: true }} />
       </div>
 
@@ -517,6 +542,10 @@ function Chart() {
 
       <div className='container'>
         <Bar data={totalSexData} width={100} height={300} options={{ maintainAspectRatio: false, responsive: true }} />
+      </div>
+
+      <div className='container'>
+        <Bar data={totalRacismData} width={100} height={300} options={{ maintainAspectRatio: false, responsive: true }} />
       </div>
     </div>
   );
