@@ -9,6 +9,11 @@ function Petitions() {
       <div className='Petition-content'>
         <ul className='list-unstyled'>
           <li>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.change.org/p/save-the-usps?source_location=petitions_browse'>
+              Save the USPS
+            </a>
+          </li>
+          <li>
             <a target='_blank' rel='noopener noreferrer' href='https://www.change.org/p/national-action-against-police-brutality-and-murder'>
               National Action Against Police Brutality
             </a>
@@ -78,6 +83,12 @@ function Petitions() {
           <li>
             <a target='_blank' rel='noopener noreferrer' href='https://www.change.org/p/sherwood-police-department-justice-for-brayla-stone?source_location=petitions_browse'>
               Justice for Brayla Stone
+            </a>
+          </li>
+
+          <li>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.change.org/p/tony-evers-charge-the-cops-who-shot-jacob-blake?source_location=petitions_browse'>
+              Justice for Jacob Blake
             </a>
           </li>
         </ul>

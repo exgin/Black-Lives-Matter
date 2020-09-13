@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { sendNewSurvey } from './redux/actionCreatorSurvey';
 import Chart from './Chart';
 import './Surveys.scss';
+import { useHistory } from 'react-router-dom';
 
 let surveyJSON = {
   title: 'Black Lives Matter Survey',
@@ -84,6 +85,7 @@ let surveyJSON = {
 };
 
 function Surveys() {
+  const history = useHistory();
   const dispatch = useDispatch();
 
   // lets see if our JSON survey data makes a new post
@@ -92,6 +94,7 @@ function Surveys() {
     const { sex, ethnicity, racism, police, vote, community } = final;
 
     dispatch(sendNewSurvey(sex, ethnicity, racism, police, vote, community));
+    history.push('/survey');
   }
 
   return (
